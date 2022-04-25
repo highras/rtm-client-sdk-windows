@@ -1,0 +1,5 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="i18n">
+<file alias="RTCDemo_zh_CN.qm">D:/workspace/infra-rtc-sdk-windows/RTCDemo/debug/RTCDemo_zh_CN.qm</file>
+</qresource>
+</RCC>
