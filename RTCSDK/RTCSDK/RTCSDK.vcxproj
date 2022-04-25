@@ -166,7 +166,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(FPNN_SDK_PATH)\core;$(FPNN_SDK_PATH)\base;$(FPNN_SDK_PATH)\proto;$(FPNN_SDK_PATH)\proto\msgpack;$(FPNN_SDK_PATH)\proto\rapidjson;$(SolutionDir)LivedataAudioStatic;$(SolutionDir)DX12Renderer;..\3rdParty\x64\inc\libsamplerate;..\3rdParty\x64\inc\audioconverter;..\3rdParty\x64\inc\openh264;..\3rdParty\x64\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\..\fpnn-sdk-windows-cpp\fpnn-sdk\base;$(SolutionDir)..\..\fpnn-sdk-windows-cpp\fpnn-sdk\core;$(SolutionDir)..\..\fpnn-sdk-windows-cpp\fpnn-sdk\proto;$(SolutionDir)..\..\fpnn-sdk-windows-cpp\fpnn-sdk\proto\msgpack;$(SolutionDir)..\..\fpnn-sdk-windows-cpp\fpnn-sdk\proto\rapidjson;$(FPNN_SDK_PATH)\proto\rapidjson;$(SolutionDir)LivedataAudioStatic;$(SolutionDir)DX12Renderer;..\3rdParty\x64\inc\libsamplerate;..\3rdParty\x64\inc\audioconverter;..\3rdParty\x64\inc\openh264;..\3rdParty\x64\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -181,7 +181,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <Lib>
-      <AdditionalLibraryDirectories>$(FPNN_SDK_PATH)\..\x64\Debug;..\3rdParty\x64\lib\debug;..\x64\debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\..\fpnn-sdk-windows-cpp\x64\Debug;..\3rdParty\x64\lib\debug;..\x64\debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>fpnn-sdk.lib;yuv.lib;openh264.lib;LivedataAudioStatic.lib;DX12Renderer.lib;audio-convert-windows_d.lib;samplerate_d.lib;winmm.lib</AdditionalDependencies>
     </Lib>
     <ProjectReference>
@@ -190,7 +190,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(FPNN_SDK_PATH)\core;$(FPNN_SDK_PATH)\base;$(FPNN_SDK_PATH)\proto;$(FPNN_SDK_PATH)\proto\rapidjson;$(FPNN_SDK_PATH)\proto\msgpack;$(SolutionDir)LivedataAudioStatic;$(SolutionDir)DX12Renderer;..\3rdParty\x64\inc\libsamplerate;..\3rdParty\x64\inc\audioconverter;..\3rdParty\x64\inc\openh264;..\3rdParty\x64\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\..\fpnn-sdk-windows-cpp\fpnn-sdk\core;$(SolutionDir)..\..\fpnn-sdk-windows-cpp\fpnn-sdk\base;$(SolutionDir)..\..\fpnn-sdk-windows-cpp\fpnn-sdk\proto;$(SolutionDir)..\..\fpnn-sdk-windows-cpp\fpnn-sdk\proto\msgpack;$(SolutionDir)..\..\fpnn-sdk-windows-cpp\fpnn-sdk\proto\rapidjson;$(SolutionDir)LivedataAudioStatic;$(SolutionDir)DX12Renderer;..\3rdParty\x64\inc\libsamplerate;..\3rdParty\x64\inc\audioconverter;..\3rdParty\x64\inc\openh264;..\3rdParty\x64\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <WarningLevel>Level3</WarningLevel>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
@@ -212,7 +212,7 @@
       <AdditionalDependencies>fpnn-sdk.lib;yuv.lib;openh264.lib;LivedataAudioStatic.lib;DX12Renderer.lib;audio-convert-windows.lib;samplerate.lib;winmm.lib</AdditionalDependencies>
     </Lib>
     <Lib>
-      <AdditionalLibraryDirectories>$(FPNN_SDK_PATH)\..\x64\Release;..\3rdParty\x64\lib\release;..\x64\release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\..\fpnn-sdk-windows-cpp\x64\Release;..\3rdParty\x64\lib\release;..\x64\release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Lib>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
