@@ -4,7 +4,7 @@
     b、vs打开fpnn项目，修改项目属性-->c/c++-->代码生成中的运行库的MDd到MTd，MD到MT  
        (因为fpnn默认是MDd，rtm-client-sdk-windows-rtc默认是MTd)  
     注意:fpnn代码目录需要与rtm-client-sdk-windows-rtc代码目录平级  
-    
+      
 2、结构目录    
     a、RTCSDk目录包含了rtc、rtm接口，以静态库形式导出  
     b、RTMDemo是Qt写的demo，目的在于测试rtm接口  
