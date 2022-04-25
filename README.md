@@ -11,5 +11,6 @@
     c、RTCDemo是Qt写的demo，目的在于测试rtc接口
     d、doc文档介绍了rtc、rtm接口
 
+仅支持windows
 
 
