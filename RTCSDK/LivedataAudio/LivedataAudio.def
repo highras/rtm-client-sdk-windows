@@ -1,0 +1,10 @@
+LIBRARY	"LivedataAudio"
+EXPORTS
+    Init
+    Uninit
+    StartEngine
+    StopEngine
+    OpenMicrophone
+    MuteMicrophone
+    OnRecordDataReady
+    DllMain                         PRIVATE
