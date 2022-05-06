@@ -24,21 +24,16 @@
     * ..\RTCSDK\x64\Debug\RTCSDK.lib
 
 ## 初始化rtm-rtc-client-sdk-windows实例
-* 初始化rtm事件接口，详情参见[RTMEventHandler](https://github.com/highras/rtm-rtc-client-sdk-windows/blob/master/RTMDemo/mainwindow.cpp)中的eventhandler
-* 初始化rtm实例，详情参见[RTMEventHandler](https://github.com/highras/rtm-rtc-client-sdk-windows/blob/master/RTMDemo/mainwindow.cpp)中的rtm
-* 初始化client实例，详情参见[RTMEventHandler](https://github.com/highras/rtm-rtc-client-sdk-windows/blob/master/RTMDemo/mainwindow.cpp)中的tcpclient
+* 初始化rtm事件接口，详情参见[eventhandler](https://github.com/highras/rtm-rtc-client-sdk-windows/blob/master/RTMDemo/mainwindow.cpp)中的eventhandler
+* 初始化rtm实例，详情参见[rtm](https://github.com/highras/rtm-rtc-client-sdk-windows/blob/master/RTMDemo/mainwindow.cpp)中的rtm
+* 初始化client实例，详情参见[tcpclient](https://github.com/highras/rtm-rtc-client-sdk-windows/blob/master/RTMDemo/mainwindow.cpp)中的tcpclient
 
-## 登录以及其他接口的调用
+## 接口调用
+* 用户登录成功后， 才能调用其他接口，登录示例见[login](https://github.com/highras/rtm-rtc-client-sdk-windows/blob/master/RTMDemo/mainwindow.cpp)的on_Login_clicked
+* 其他接口调用说明，详情见[doc](https://github.com/highras/rtm-rtc-client-sdk-windows/blob/master/RTMDemo/mainwindow.cpp)的on_Login_clicked
 
 
 
       
-二、结构目录    
-    a、RTCSDk目录包含了rtc、rtm接口，以静态库形式导出  
-    b、RTMDemo是Qt写的demo，目的在于测试rtm接口  
-    c、RTCDemo是Qt写的demo，目的在于测试rtc接口  
-    d、doc文档介绍了rtc、rtm接口  
-
-仅支持windows  
 
 
