@@ -6,7 +6,7 @@
 
 ## 编译rtm-rtc-client-sdk-windows
 
-* 下载fpnn-sdk-windows代码与rtm-rtc-client-sdk-windows代码到同级目录
+* 下载[fpnn-sdk-windows](https://github.com/highras/fpnn-sdk-windows-cpp.git)代码与rtm-rtc-client-sdk-windows代码到同级目录
 * vs打开fpnn项目，右键项目，属性-->c/c++-->代码生成-->修改运行库的MDd到MTd，MD到MT(因为fpnn默认是MDd，rtm-rtc-client-sdk-windows默认是MTd)  
 * 编译rtm-rtc-client-sdk-windows，默认生成RTCSDK.lib静态库
 
