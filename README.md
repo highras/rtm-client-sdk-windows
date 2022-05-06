@@ -1,4 +1,4 @@
-# RTM/RTC Windows C++ SDK
+# RTM-RTC Windows C++ SDK
 
 [TOC]
 
@@ -6,15 +6,15 @@
 
 * [fpnn-sdk-windows](https://github.com/highras/fpnn-sdk-windows-cpp.git)
 
-## rtm-client-sdk-windows项目配置
+## 编译rtm-rtc-client-sdk-windows
 
-* 下载fpnn-sdk-windows代码与rtm-client-sdk-windows代码到同级目录
-* vs打开fpnn项目，修改项目属性-->c/c++-->代码生成中的运行库的MDd到MTd，MD到MT(因为fpnn默认是MDd，rtm-client-sdk-windows默认是MTd)  
-* 编译rtm-client-sdk-windows，默认生成静态库
+* 下载fpnn-sdk-windows代码与rtm-rtc-client-sdk-windows代码到同级目录
+* vs打开fpnn项目，项目属性-->c/c++-->代码生成-->修改运行库的MDd到MTd，MD到MT(因为fpnn默认是MDd，rtm-rtc-client-sdk-windows默认是MTd)  
+* 编译rtm-rtc-client-sdk-windows，默认生成RTCSDK.lib静态库
 
-## rtm-client-sdk-windows项目配置
+## 引入rtm-rtc-client-sdk-windows头文件、库
+* 
 
-## 注意事项
 
       
 二、结构目录    
