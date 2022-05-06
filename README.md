@@ -24,6 +24,7 @@
     * ..\RTCSDK\x64\Debug\RTCSDK.lib
 
 ## 初始化rtm-rtc-client-sdk-windows实例
+* 初始化
 
 
 
