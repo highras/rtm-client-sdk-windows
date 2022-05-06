@@ -1,7 +1,5 @@
 # RTM-RTC Windows C++ SDK编译与用法(以rtmdemo为例)
 
-[TOC]
-
 ## 依赖
 
 * [fpnn-sdk-windows](https://github.com/highras/fpnn-sdk-windows-cpp.git)
