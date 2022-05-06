@@ -30,7 +30,11 @@
 
 ## 接口调用
 * 用户登录成功后， 才能调用其他接口，登录示例见[login](https://github.com/highras/rtm-rtc-client-sdk-windows/blob/master/RTMDemo/mainwindow.cpp)的on_Login_clicked
-* 其他接口调用说明，详情见[doc](https://github.com/highras/rtm-rtc-client-sdk-windows/blob/master/RTMDemo/mainwindow.cpp)的on_Login_clicked
+* 其他接口调用说明，详情见[doc](https://github.com/highras/rtm-rtc-client-sdk-windows/tree/master/doc)
+
+##注意事项
+* [doc](https://github.com/highras/rtm-rtc-client-sdk-windows/tree/master/doc)中RTM开头的文件介绍的是rtm相关接口，rtc开头的文件介绍的是rtc相关接口
+* [rtcdemo](https://github.com/highras/rtm-rtc-client-sdk-windows/tree/master/doc)
 
 
 
