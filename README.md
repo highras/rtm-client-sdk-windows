@@ -24,7 +24,11 @@
     * ..\RTCSDK\x64\Debug\RTCSDK.lib
 
 ## 初始化rtm-rtc-client-sdk-windows实例
-* 初始化rtm事件接口，详情参见[RTMEventHandler](https://github.com/highras/rtm-rtc-client-sdk-windows/blob/master/RTMDemo/mainwindow.cpp)中的eventhandle
+* 初始化rtm事件接口，详情参见[RTMEventHandler](https://github.com/highras/rtm-rtc-client-sdk-windows/blob/master/RTMDemo/mainwindow.cpp)中的eventhandler
+* 初始化rtm实例，详情参见[RTMEventHandler](https://github.com/highras/rtm-rtc-client-sdk-windows/blob/master/RTMDemo/mainwindow.cpp)中的rtm
+* 初始化client实例，详情参见[RTMEventHandler](https://github.com/highras/rtm-rtc-client-sdk-windows/blob/master/RTMDemo/mainwindow.cpp)中的tcpclient
+
+## 登录以及其他接口的调用
 
 
 
