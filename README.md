@@ -19,7 +19,12 @@
     * ..\\..\fpnn-sdk-windows-cpp\fpnn-sdk\proto
     * ..\\..\fpnn-sdk-windows-cpp\fpnn-sdk\proto\rapidjson
     * ..\\..\fpnn-sdk-windows-cpp\fpnn-sdk\proto\msgpack
- * 右键项目，属性-->c/c++-->常规-->附加包含目录，添加以下头文件路径
+    * ..\RTCSDK\RTCSDK
+* 右键项目，属性-->链接器-->输入，添加以下库路径(此处以debug为例)
+    * ..\RTCSDK\x64\Debug\RTCSDK.lib
+
+## 初始化rtm-rtc-client-sdk-windows实例
+
 
 
       
