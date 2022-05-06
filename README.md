@@ -24,7 +24,7 @@
     * ..\RTCSDK\x64\Debug\RTCSDK.lib
 
 ## 初始化rtm-rtc-client-sdk-windows实例
-* 初始化
+* 初始化rtm事件接口，详情参见[RTMEventHandler](https://github.com/highras/rtm-rtc-client-sdk-windows/tree/master/RTMDemo)
 
 
 
