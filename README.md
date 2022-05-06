@@ -1,4 +1,4 @@
-# RTM-RTC Windows C++ SDK
+# RTM-RTC Windows C++ SDK编译与用法(以rtmdemo为例)
 
 [TOC]
 
