@@ -14,11 +14,11 @@
 
 ## 引入rtm-rtc-client-sdk-windows头文件、库(详情可见[RTMDemo](https://github.com/highras/rtm-rtc-client-sdk-windows/tree/master/RTMDemo))
 * 右键项目，属性-->c/c++-->常规-->附加包含目录，添加以下头文件路径
-    * ..\..\fpnn-sdk-windows-cpp\fpnn-sdk\core
-    * ..\..\fpnn-sdk-windows-cpp\fpnn-sdk\base
-    * ..\..\fpnn-sdk-windows-cpp\fpnn-sdk\proto
-    * ..\..\fpnn-sdk-windows-cpp\fpnn-sdk\proto\rapidjson
-    * ..\..\fpnn-sdk-windows-cpp\fpnn-sdk\proto\msgpack
+    * ..\\..\fpnn-sdk-windows-cpp\fpnn-sdk\core
+    * ..\\..\fpnn-sdk-windows-cpp\fpnn-sdk\base
+    * ..\\..\fpnn-sdk-windows-cpp\fpnn-sdk\proto
+    * ..\\..\fpnn-sdk-windows-cpp\fpnn-sdk\proto\rapidjson
+    * ..\\..\fpnn-sdk-windows-cpp\fpnn-sdk\proto\msgpack
  * 右键项目，属性-->c/c++-->常规-->附加包含目录，添加以下头文件路径
 
 
